@@ -10,14 +10,14 @@ Template.postSubmit.events({
       if(result.postExists)alert('This link has already been posted');
       Router.go('postPage',{_id:result._id});
     });
-
+//esto es un cambio que genere automatico
     //para probar la COMPENSACION DE LATENCIA
     //para probar el method del lado del cliente
     //--si lo dejo adentro del method call, esperaria hasta que vuelva del servidor con el insert
     // Router.go('postsList');
 
 
-    //es el INSERT viejo 
+    //es el INSERT viejo
     // post._id = Posts.insert(post);
     // Router.go('postPage',post);
   }
